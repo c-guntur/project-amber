@@ -1,0 +1,14 @@
+= Java: Project Amber
+
+image:assets/images/DukeAmber.png[Duke in Amber]
+
+~*Speaker:*~ ~#Chandra&nbsp;Guntur#~ &nbsp; &nbsp; &nbsp; &nbsp; ~*Twitter*~ ~*Handle:*~ ~#link:https://twitter.com/cguntur[@CGuntur]#~ &nbsp; &nbsp; &nbsp; &nbsp; ~*Github*~ ~*Link:*~ ~#https://github.com/c-guntur/project-amber#~
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| link:assets/docs/AboutChandraGuntur.adoc[◀️ #About Chandra#]
+| &nbsp;
+| link:assets/docs/amber/01_WhatIsProjectAmber.adoc[#What is Project Amber# ▶️]
+|===

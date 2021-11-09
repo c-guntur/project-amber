@@ -1,0 +1,24 @@
+= About Chandra Guntur
+
+== &nbsp;
+image::../images/CVG_Mugshot.png[Chandra Guntur, 150, float="right", align="center"]
+=== 🔸 Java Champion
+=== 🔸 JCP Executive Committee Rep. for BNY Mellon
+=== 🔸 Programming in Java since 1998
+=== 🔸 JUG Leader @NYJavaSIG and @GardenStateJUG
+image::../images/CVG_Caricature.png[Chandra Guntur, 150, float="right", align="center"]
+=== 🔸 Ardent blogger and tweeter
+=== 🔸 Saganist (with a ‘g’ not a ‘t’) 😈
+=== 🔸 Github: https://github.com/c-guntur
+=== 🔸 Twitter: https://twitter.com/cguntur (@CGuntur)
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:../../README.adoc[#Back# 🔼]
+| &nbsp;
+|===
+
+
