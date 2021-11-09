@@ -1,0 +1,33 @@
+= What is Project Amber?
+
+Project Amber explores and incubates smaller, productivity-oriented Java language features that have been accepted as candidate JEPs in the OpenJDK JEP Process (https://openjdk.java.net/jeps/1)
+
+== Project Amber Goals
+
+=== Delivered
+
+~286:&nbsp;Local-Variable&nbsp;Type&nbsp;Inference&nbsp;(var)~
+
+~323:&nbsp;Local-Variable&nbsp;Syntax&nbsp;for&nbsp;Lambda&nbsp;Parameters~
+
+~361:&nbsp;Switch&nbsp;Expressions~
+
+~378:&nbsp;Text&nbsp;Blocks~
+
+~394:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;instanceof~
+
+~395:&nbsp;Records~
+
+=== In progress
+~405:&nbsp;Record&nbsp;Patterns&nbsp;and&nbsp;Array&nbsp;Patterns&nbsp;(Preview)~
+
+~406:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;(Preview)~
+
+~409:&nbsp;Sealed&nbsp;Classes~
+
+=== On hold
+~301:&nbsp;Enhanced&nbsp;Enums~
+
+~302:&nbsp;Lambda&nbsp;Leftovers~
+
+~348:&nbsp;Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs~

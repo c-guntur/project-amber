@@ -5,12 +5,13 @@ image::../images/CVG_Mugshot.png[Chandra Guntur, 150, float="right", align="cent
 === 🔸 Java Champion
 === 🔸 JCP Executive Committee Rep. for BNY Mellon
 === 🔸 Programming in Java since 1998
-=== 🔸 JUG Leader @NYJavaSIG and @GardenStateJUG
+=== 🔸 JUG Leader link:https://twitter.com/nyjavasig[@NYJavaSIG] and link:https://twitter.com/GardenStateJUG[@GardenStateJUG]
 image::../images/CVG_Caricature.png[Chandra Guntur, 150, float="right", align="center"]
 === 🔸 Ardent blogger and tweeter
-=== 🔸 Saganist (with a ‘g’ not a ‘t’) 😈
+=== 🔸 Website: https://cguntur.me
 === 🔸 Github: https://github.com/c-guntur
-=== 🔸 Twitter: https://twitter.com/cguntur (@CGuntur)
+=== 🔸 Twitter: https://twitter.com/cguntur[@CGuntur]
+=== 🔸 Saganist (with a ‘g’ not a ‘t’) 😈
 
 '''
 

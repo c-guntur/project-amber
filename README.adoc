@@ -1,4 +1,4 @@
-= Java: Project Amber
+= Java: Project Amber: Not just a rare fossil
 
 image:assets/images/DukeAmber.png[Duke in Amber]
 
