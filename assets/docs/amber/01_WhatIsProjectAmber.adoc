@@ -1,33 +1,44 @@
 = What is Project Amber?
 
-Project Amber explores and incubates smaller, productivity-oriented Java language features that have been accepted as candidate JEPs in the OpenJDK JEP Process (https://openjdk.java.net/jeps/1)
+Project Amber explores and incubates smaller, productivity-oriented Java language features.
+
+The feature candidate JEPs are in the OpenJDK JEP Process (https://openjdk.java.net/jeps/1)
 
 == Project Amber Goals
 
-=== Delivered
+=== Delivered ✅
 
-~286:&nbsp;Local-Variable&nbsp;Type&nbsp;Inference&nbsp;(var)~
+~link:https://openjdk.java.net/jeps/286[JEP-286]:&nbsp;Local-Variable&nbsp;Type&nbsp;Inference&nbsp;(var)~
 
-~323:&nbsp;Local-Variable&nbsp;Syntax&nbsp;for&nbsp;Lambda&nbsp;Parameters~
+~link:https://openjdk.java.net/jeps/323[JEP-323]:&nbsp;Local-Variable&nbsp;Syntax&nbsp;for&nbsp;Lambda&nbsp;Parameters~
 
-~361:&nbsp;Switch&nbsp;Expressions~
+~link:https://openjdk.java.net/jeps/361[JEP-361]:&nbsp;Switch&nbsp;Expressions~
 
-~378:&nbsp;Text&nbsp;Blocks~
+~link:https://openjdk.java.net/jeps/378[JEP-378]:&nbsp;Text&nbsp;Blocks~
 
-~394:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;instanceof~
+~link:https://openjdk.java.net/jeps/394[JEP-394]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;instanceof~
 
-~395:&nbsp;Records~
+~link:https://openjdk.java.net/jeps/395[JEP-395]:&nbsp;Records~
 
-=== In progress
-~405:&nbsp;Record&nbsp;Patterns&nbsp;and&nbsp;Array&nbsp;Patterns&nbsp;(Preview)~
+=== In progress 🚧
+~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Record&nbsp;Patterns&nbsp;and&nbsp;Array&nbsp;Patterns&nbsp;(Preview)~
 
-~406:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;(Preview)~
+~link:https://openjdk.java.net/jeps/406[JEP-406]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;(Preview)~
 
-~409:&nbsp;Sealed&nbsp;Classes~
+~link:https://openjdk.java.net/jeps/409[JEP-409]:&nbsp;Sealed&nbsp;Classes~
 
-=== On hold
-~301:&nbsp;Enhanced&nbsp;Enums~
+=== On hold ⚠️
+~link:https://openjdk.java.net/jeps/301[JEP-301]:&nbsp;Enhanced&nbsp;Enums~
 
-~302:&nbsp;Lambda&nbsp;Leftovers~
+~link:https://openjdk.java.net/jeps/302[JEP-302]:&nbsp;Lambda&nbsp;Leftovers~
 
-~348:&nbsp;Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs~
+~link:https://openjdk.java.net/jeps/348[JEP-348]:&nbsp;Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs~
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:../../../README.adoc[#Main# 🔼]
+| link:assets/docs/amber/02_JEP286.adoc[#Local-Variable Type Inference# ▶️]
+|===
