@@ -1,0 +1,14 @@
+= Record Patterns and Array Patterns
+
+^🚧&nbsp;In&nbsp;progress:&nbsp;https://openjdk.java.net/jeps/405[JEP-405]^
+
+
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| ◀️ link:07_JEP409.adoc[#Sealed&nbsp;Classes#]
+| link:../../../00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
+| link:09_JEP406.adoc[#Pattern Matching for switch# ▶️]
+|===

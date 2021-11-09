@@ -1,12 +1,15 @@
 = What is Project Amber?
+:icons: font
 
 Project Amber explores and incubates smaller, productivity-oriented Java language features.
 
 The feature candidate JEPs are in the OpenJDK JEP Process (https://openjdk.java.net/jeps/1)
 
-== Project Amber Goals
 
-=== Delivered ✅
+== Project Amber Goals
+NOTE: ~This&nbsp;presentation&nbsp;is&nbsp;based&nbsp;on&nbsp;~*~#Java&nbsp;17#~*~&nbsp;released&nbsp;~*~#2021-09-14#~*~.~
+
+=== ✅ Delivered
 
 ~link:https://openjdk.java.net/jeps/286[JEP-286]:&nbsp;Local-Variable&nbsp;Type&nbsp;Inference&nbsp;(var)~
 
@@ -20,19 +23,22 @@ The feature candidate JEPs are in the OpenJDK JEP Process (https://openjdk.java.
 
 ~link:https://openjdk.java.net/jeps/395[JEP-395]:&nbsp;Records~
 
-=== In progress 🚧
-~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Record&nbsp;Patterns&nbsp;and&nbsp;Array&nbsp;Patterns&nbsp;(Preview)~
-
-~link:https://openjdk.java.net/jeps/406[JEP-406]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;(Preview)~
-
 ~link:https://openjdk.java.net/jeps/409[JEP-409]:&nbsp;Sealed&nbsp;Classes~
 
-=== On hold ⚠️
+=== 🚧 In progress
+~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Record&nbsp;Patterns&nbsp;and&nbsp;Array&nbsp;Patterns~
+
+~link:https://openjdk.java.net/jeps/406[JEP-406]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;(Preview&nbsp;JDK&nbsp;17)~
+
+=== ⚠️ On hold
 ~link:https://openjdk.java.net/jeps/301[JEP-301]:&nbsp;Enhanced&nbsp;Enums~
 
 ~link:https://openjdk.java.net/jeps/302[JEP-302]:&nbsp;Lambda&nbsp;Leftovers~
 
 ~link:https://openjdk.java.net/jeps/348[JEP-348]:&nbsp;Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs~
+
+
+
 
 '''
 
@@ -40,5 +46,5 @@ The feature candidate JEPs are in the OpenJDK JEP Process (https://openjdk.java.
 |===
 | &nbsp;
 | link:../../../README.adoc[#Main# 🔼]
-| link:assets/docs/amber/02_JEP286.adoc[#Local-Variable Type Inference# ▶️]
+| link:01_JEP286.adoc[#Local-Variable Type Inference# ▶️]
 |===

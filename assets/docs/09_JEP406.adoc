@@ -1,0 +1,14 @@
+= Pattern Matching for switch
+
+^🚧&nbsp;In&nbsp;progress:&nbsp;https://openjdk.java.net/jeps/406[JEP-406]^
+
+
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| ◀️ link:08_JEP405.adoc[#Record Patterns and Array Patterns#]
+| link:../../../00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
+| link:10_JEP301.adoc[#Enhanced&nbsp;Enums# ▶️]
+|===

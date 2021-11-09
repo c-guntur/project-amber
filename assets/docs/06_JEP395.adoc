@@ -1,0 +1,14 @@
+= Records
+
+^✅&nbsp;Delivered:&nbsp;https://openjdk.java.net/jeps/395[JEP-395]^
+
+
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| ◀️ link:05_JEP394.adoc[#Pattern Matching for instanceof#]
+| link:../../../00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
+| link:07_JEP409.adoc[#Sealed&nbsp;Classes# ▶️]
+|===

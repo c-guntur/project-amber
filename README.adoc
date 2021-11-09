@@ -10,5 +10,5 @@ image:assets/images/DukeAmber.png[Duke in Amber]
 |===
 | link:assets/docs/AboutChandraGuntur.adoc[◀️ #About Chandra#]
 | &nbsp;
-| link:assets/docs/amber/01_WhatIsProjectAmber.adoc[#What is Project Amber# ▶️]
+| link:assets/docs/00_WhatIsProjectAmber.adoc[#What is Project Amber# ▶️]
 |===
