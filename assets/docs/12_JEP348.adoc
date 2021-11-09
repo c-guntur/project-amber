@@ -9,6 +9,6 @@
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
 | ◀️ link:11_JEP301.adoc[#Lambda&nbsp;Leftovers#]
-| link:../../../00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
+| link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
 | &nbsp;
 |===

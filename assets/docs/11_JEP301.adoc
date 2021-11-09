@@ -9,6 +9,6 @@
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
 | ◀️ link:10_JEP301.adoc[#Enhanced&nbsp;Enums#]
-| link:../../../00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
+| link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
 | link:12_JEP348.adoc[#Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs# ▶️]
 |===
