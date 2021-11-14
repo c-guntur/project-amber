@@ -1,14 +1,47 @@
 = Switch Expressions
+:icons: font
 
-^✅&nbsp;Delivered:&nbsp;https://openjdk.java.net/jeps/361[JEP-361]^
+^✅&nbsp;Delivered:&nbsp;^
+_^https://openjdk.java.net/jeps/325[JEP-325]&nbsp;(Java&nbsp;12)^_^&nbsp;⇢&nbsp;^
+_^https://openjdk.java.net/jeps/354[JEP-354]&nbsp;(Java&nbsp;13)^_^&nbsp;⇢&nbsp;^
+*^https://openjdk.java.net/jeps/361[JEP-361]&nbsp;(Java&nbsp;14)^*
 
+- Initial expression syntax used a _case-arrow_ with a `case L -> v`
 
+[source, java, linenums]
+----
+case JANUARY, FEBRUARY, MARCH -> 1;
+----
+
+- The `case L: ... yield v` expression, later introduced, works better for complex statements
+
+- *Example*
+
+[source,java,linenums,highlight=7..11]
+----
+import java.time.Month;
+
+class Scratch {
+    public static void main(String[] args) {
+        Month month = Month.DECEMBER;
+
+        int quarter = switch (month) {                  //<1>
+            case JANUARY, FEBRUARY, MARCH -> 1;
+            case APRIL, MAY, JUNE -> 2;                 //<2>
+            case JULY, AUGUST, SEPTEMBER -> 3;
+            case OCTOBER, NOVEMBER, DECEMBER: yield 4;  //<3>
+        };
+
+        System.out.println("This is Q" + quarter);
+    }
+}
+----
 
 '''
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
-| ◀️ link:02_JEP323.adoc[#Local-Variable Type Inference#]
+| ◀️ link:02_JEP323.adoc[#Local-Variable Syntax for *λ* Parameters#]
 | link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
 | link:04_JEP378.adoc[#Text&nbsp;Blocks# ▶️]
 |===

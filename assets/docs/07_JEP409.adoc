@@ -1,6 +1,11 @@
 = Sealed Classes
+:icons: font
 
-^✅&nbsp;Delivered:&nbsp;https://openjdk.java.net/jeps/409[JEP-409]^
+^✅&nbsp;Delivered:&nbsp;^
+_^https://openjdk.java.net/jeps/360[JEP-360]&nbsp;(Java&nbsp;15)^_^&nbsp;⇢&nbsp;^
+_^https://openjdk.java.net/jeps/397[JEP-397]&nbsp;(Java&nbsp;16)^_^&nbsp;⇢&nbsp;^
+*^https://openjdk.java.net/jeps/409[JEP-409]&nbsp;(Java&nbsp;17)^*
+
 
 
 

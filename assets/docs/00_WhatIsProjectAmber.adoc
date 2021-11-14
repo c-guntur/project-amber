@@ -1,15 +1,14 @@
 = What is Project Amber?
 :icons: font
 
-Project Amber explores and incubates smaller, productivity-oriented Java language features.
+Project Amber explores -> incubates or delivers smaller, productivity-oriented Java language features.
 
 The feature candidate JEPs are in the OpenJDK JEP Process (https://openjdk.java.net/jeps/1)
 
-
-== Project Amber Goals
+=== Project Amber Goals
 NOTE: ~This&nbsp;presentation&nbsp;is&nbsp;based&nbsp;on&nbsp;~*~#Java&nbsp;17#~*~&nbsp;released&nbsp;~*~#2021-09-14#~*~.~
 
-=== ✅ Delivered
+==== ✅ Delivered
 
 ~link:https://openjdk.java.net/jeps/286[JEP-286]:&nbsp;Local-Variable&nbsp;Type&nbsp;Inference&nbsp;(var)~
 
@@ -25,12 +24,12 @@ NOTE: ~This&nbsp;presentation&nbsp;is&nbsp;based&nbsp;on&nbsp;~*~#Java&nbsp;17#~
 
 ~link:https://openjdk.java.net/jeps/409[JEP-409]:&nbsp;Sealed&nbsp;Classes~
 
-=== 🚧 In progress
+==== 🚧 In progress
 ~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Record&nbsp;Patterns&nbsp;and&nbsp;Array&nbsp;Patterns~
 
 ~link:https://openjdk.java.net/jeps/406[JEP-406]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;(Preview&nbsp;JDK&nbsp;17)~
 
-=== ⚠️ On hold
+==== ⚠️ On hold
 ~link:https://openjdk.java.net/jeps/301[JEP-301]:&nbsp;Enhanced&nbsp;Enums~
 
 ~link:https://openjdk.java.net/jeps/302[JEP-302]:&nbsp;Lambda&nbsp;Leftovers~

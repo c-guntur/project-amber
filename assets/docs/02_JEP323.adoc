@@ -1,8 +1,17 @@
 = Local-Variable Syntax for Lambda Parameters
+:icons: font
 
-^✅&nbsp;Delivered:&nbsp;https://openjdk.java.net/jeps/323[JEP-323]^
+^✅&nbsp;Delivered:&nbsp;https://openjdk.java.net/jeps/323[JEP-323]&nbsp;&nbsp;&nbsp;&nbsp;^*^Java&nbsp;11^*
 
+- Fix issues with `var` usage in lambda parameters
+- Great addition for annotating params in lambdas
+- Examples:
 
+[source,java,linenums]
+----
+(var x, var y) -> x.process(y)
+(@Nonnull var x, @Nullable var y) -> x.process(y)
+----
 
 '''
 

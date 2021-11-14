@@ -1,9 +1,29 @@
 = Local Variable Type Inference
+:icons: font
 
-^✅&nbsp;Delivered:&nbsp;https://openjdk.java.net/jeps/286[JEP-286]^
+^✅&nbsp;Delivered:&nbsp;https://openjdk.java.net/jeps/286[JEP-286]&nbsp;&nbsp;&nbsp;&nbsp;^*^Java&nbsp;10^*
 
+- Introduction of `var` as a variable type
 
+- *Examples*:
 
+[source, java, linenums]
+----
+var list = new ArrayList<String>(); // infers ArrayList<String>
+var stream = list.stream(); // infers Stream<String>
+----
+
+- Requires initialization of the variable; reduces `NullPointerException` issues
+
+- *Incorrect uses*
+
+[source, java, linenums]
+----
+var x; // cannot infer type for local
+var f = () -> { }; // cannot infer type for local
+var g = null; // cannot infer type for local
+var k = { 1 , 2 }; // cannot infer type for local
+----
 
 '''
 
