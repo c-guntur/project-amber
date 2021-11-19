@@ -1,43 +1,43 @@
 = What is Project Amber?
 :icons: font
 
-Project Amber explores -> incubates or delivers smaller, productivity-oriented Java language features.
+Project&nbsp;Amber&nbsp;explores&nbsp;->&nbsp;incubates&nbsp;or&nbsp;delivers&nbsp;smaller,&nbsp;productivity-oriented&nbsp;Java&nbsp;language&nbsp;features.
 
-The feature candidate JEPs are in the OpenJDK JEP Process (https://openjdk.java.net/jeps/1)
+~The&nbsp;feature&nbsp;candidate&nbsp;JEPs&nbsp;are&nbsp;in&nbsp;the&nbsp;OpenJDK&nbsp;JEP&nbsp;Process&nbsp;(https://openjdk.java.net/jeps/1)~
 
-=== Project Amber Goals
+==== Project Amber Goals
 NOTE: ~This&nbsp;presentation&nbsp;is&nbsp;based&nbsp;on&nbsp;~*~#Java&nbsp;17#~*~&nbsp;released&nbsp;~*~#2021-09-14#~*~.~
 
-==== ✅ Delivered
+===== ✅ Delivered
 
-~link:https://openjdk.java.net/jeps/286[JEP-286]:&nbsp;Local-Variable&nbsp;Type&nbsp;Inference&nbsp;(var)~
+~link:https://openjdk.java.net/jeps/286[JEP-286]:&nbsp;Local-Variable&nbsp;Type&nbsp;Inference&nbsp;(var)&nbsp;link:01_JEP286.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/323[JEP-323]:&nbsp;Local-Variable&nbsp;Syntax&nbsp;for&nbsp;Lambda&nbsp;Parameters~
+~link:https://openjdk.java.net/jeps/323[JEP-323]:&nbsp;Local-Variable&nbsp;Syntax&nbsp;for&nbsp;Lambda&nbsp;Parameters&nbsp;link:02_JEP323.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/361[JEP-361]:&nbsp;Switch&nbsp;Expressions~
+~link:https://openjdk.java.net/jeps/361[JEP-361]:&nbsp;Switch&nbsp;Expressions&nbsp;link:03_JEP361.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/378[JEP-378]:&nbsp;Text&nbsp;Blocks~
+~link:https://openjdk.java.net/jeps/378[JEP-378]:&nbsp;Text&nbsp;Blocks&nbsp;link:04_JEP378.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/394[JEP-394]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;instanceof~
+~link:https://openjdk.java.net/jeps/394[JEP-394]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;instanceof&nbsp;link:05_JEP394.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/395[JEP-395]:&nbsp;Records~
+~link:https://openjdk.java.net/jeps/395[JEP-395]:&nbsp;Records&nbsp;link:06_JEP395.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/409[JEP-409]:&nbsp;Sealed&nbsp;Classes~
+~link:https://openjdk.java.net/jeps/409[JEP-409]:&nbsp;Sealed&nbsp;Classes&nbsp;link:07_JEP409.adoc[jump&nbsp;to&nbsp;▶️]~
 
-==== 🚧 In progress
-~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Record&nbsp;Patterns&nbsp;and&nbsp;Array&nbsp;Patterns~
+===== 🚧 In progress
+~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Record&nbsp;Patterns&nbsp;and&nbsp;Array&nbsp;Patterns&nbsp;link:08_JEP405.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/406[JEP-406]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;(Preview&nbsp;JDK&nbsp;17)~
+~link:https://openjdk.java.net/jeps/406[JEP-406]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;(Preview&nbsp;JDK&nbsp;17)&nbsp;link:09_JEP406.adoc[jump&nbsp;to&nbsp;▶️]~
 
-==== ⚠️ On hold
-~link:https://openjdk.java.net/jeps/301[JEP-301]:&nbsp;Enhanced&nbsp;Enums~
+===== ⚠️ On hold
+~link:https://openjdk.java.net/jeps/301[JEP-301]:&nbsp;Enhanced&nbsp;Enums&nbsp;link:10_JEP301.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/302[JEP-302]:&nbsp;Lambda&nbsp;Leftovers~
+~link:https://openjdk.java.net/jeps/302[JEP-302]:&nbsp;Lambda&nbsp;Leftovers&nbsp;link:11_JEP301.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/348[JEP-348]:&nbsp;Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs~
+~link:https://openjdk.java.net/jeps/348[JEP-348]:&nbsp;Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs&nbsp;link:12_JEP348.adoc[jump&nbsp;to&nbsp;▶️]~
 
-
-
+===== ✍🏼Draft
+~link:https://openjdk.java.net/jeps/8209434[JEP-draft]:&nbsp;Concise&nbsp;Method&nbsp;Bodies&nbsp;~
 
 '''
 

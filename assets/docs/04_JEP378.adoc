@@ -2,10 +2,30 @@
 :icons: font
 
 ^✅&nbsp;Delivered:&nbsp;^
+
+_[.line-through]^https://openjdk.java.net/jeps/326[JEP-326]&nbsp;(Java&nbsp;12)^_^&nbsp;⇢&nbsp;^
 _^https://openjdk.java.net/jeps/355[JEP-355]&nbsp;(Java&nbsp;13)^_^&nbsp;⇢&nbsp;^
 _^https://openjdk.java.net/jeps/368[JEP-368]&nbsp;(Java&nbsp;14)^_^&nbsp;⇢&nbsp;^
 *^https://openjdk.java.net/jeps/378[JEP-378]&nbsp;(Java&nbsp;15)^*
 
+* Originally proposed as "Raw String Literals" in Java 12 (JEP 326), replaced proposal starting Java 13
+
+* Uses a `"""` ... `"""` format with *at least* one line terminator (for indentation heuristics)
+
+* Great documentation available at:
+** *JEP&nbsp;378*:&nbsp;https://openjdk.java.net/jeps/378
+** *Programmer's&nbsp;Guide&nbsp;to&nbsp;Text&nbsp;Blocks*:&nbsp;https://docs.oracle.com/en/java/javase/15/text-blocks/index.html
+
+* *Example* &nbsp;&nbsp;&nbsp;&nbsp;See: link:../../src/none/cgutils/amber/TextBlocks.java[TextBlocks.java]
+
+[source,java,linenums,highlight=7..11]
+----
+String text = """
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua.
+                """;
+----
 
 
 '''

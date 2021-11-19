@@ -15,7 +15,7 @@ case JANUARY, FEBRUARY, MARCH -> 1;
 
 - The `case L: ... yield v` expression, later introduced, works better for complex statements
 
-- *Example*
+- *Example* See: link:../../src/none/cgutils/amber/Switch.java[Switch.java]
 
 [source,java,linenums,highlight=7..11]
 ----
@@ -28,7 +28,7 @@ class Scratch {
         int quarter = switch (month) {                  //<1>
             case JANUARY, FEBRUARY, MARCH -> 1;
             case APRIL, MAY, JUNE -> 2;                 //<2>
-            case JULY, AUGUST, SEPTEMBER -> 3;
+            case JULY, AUGUST, SEPTEMBER: yield 3;
             case OCTOBER, NOVEMBER, DECEMBER: yield 4;  //<3>
         };
 
