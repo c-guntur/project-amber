@@ -2,12 +2,11 @@ package none.cgutils.amber;
 
 import java.time.Month;
 
-class Switch {
+class Ex3Switch {
 
     public static void main(String[] args) {
 
         Month december = Month.DECEMBER;
-        Month january = Month.JANUARY;
 
         //NOTE: Uses arrows
         int decemberQuarter = switch (december) {
@@ -17,15 +16,18 @@ class Switch {
             case OCTOBER, NOVEMBER, DECEMBER -> 4;
         };
 
+        System.out.println("December is Q" + decemberQuarter);
+
+        Month january = Month.JANUARY;
+
         //NOTE: Uses yield
-        int januaryQuarter = switch (january) {
-            case JANUARY, FEBRUARY, MARCH: yield 1;
-            case APRIL, MAY, JUNE: yield 2;
-            case JULY, AUGUST, SEPTEMBER: yield 3;
-            case OCTOBER, NOVEMBER, DECEMBER: yield 4;
+        String evenOrOdd = switch (january.getValue() % 2) {
+            case 0:
+                yield "even";
+            default:
+                yield "odd";
         };
 
-        System.out.println("January is Q" + januaryQuarter);
-        System.out.println("December is Q" + decemberQuarter);
+        System.out.println(january + " is an " + evenOrOdd + " month.");
     }
 }

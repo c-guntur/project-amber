@@ -1,6 +1,6 @@
 package none.cgutils.amber;
 
-class TextBlocks {
+class Ex4TextBlocks {
 
     public static void main(String[] args) {
 

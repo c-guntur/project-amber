@@ -6,7 +6,29 @@ _^https://openjdk.java.net/jeps/359[JEP-359]&nbsp;(Java&nbsp;14)^_^&nbsp;⇢&nbs
 _^https://openjdk.java.net/jeps/384[JEP-384]&nbsp;(Java&nbsp;15)^_^&nbsp;⇢&nbsp;^
 *^https://openjdk.java.net/jeps/395[JEP-395]&nbsp;(Java&nbsp;16)^*
 
+* Immutable data objects with *built in* constructors and accessors
 
+* Immutability implies *no mutators*
+
+* Java Language Specification for Records: https://docs.oracle.com/javase/specs/jls/se17/html/jls-8.html#jls-8.10
+
+
+* *Example* &nbsp;&nbsp;&nbsp;&nbsp;See: link:../../src/none/cgutils/amber/Ex6Records.java[Ex6Records.java]
+
+[source,java,linenums,highlight=7..11]
+----
+record Point(int x, int y) {}                       //<1>
+
+record ColoredPoint(Color color, int x, int y) {
+    ColoredPoint {                                  //<2>
+        if (color == null) {
+            color = Color.BLUE;
+        }
+    }
+}
+----
+<1> Empty body uses built in constructor and accessors `x()` and `y()`
+<2> Compact canonical constructor
 
 '''
 

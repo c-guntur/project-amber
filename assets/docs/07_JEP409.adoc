@@ -6,7 +6,32 @@ _^https://openjdk.java.net/jeps/360[JEP-360]&nbsp;(Java&nbsp;15)^_^&nbsp;⇢&nbs
 _^https://openjdk.java.net/jeps/397[JEP-397]&nbsp;(Java&nbsp;16)^_^&nbsp;⇢&nbsp;^
 *^https://openjdk.java.net/jeps/409[JEP-409]&nbsp;(Java&nbsp;17)^*
 
+* A class/interface (type) can be declared sealed if all its direct extensions are known when the type is declared.
+* Controlled extensions, midway between the *final* and *open* classes
 
+* Adds new modifiers of `sealed` and `non-sealed`
+
+* Requires a new `permits` clause to allow limited hierarchy
+
+* *Example* &nbsp;&nbsp;&nbsp;&nbsp;See: link:../../src/none/cgutils/amber/Ex7SealedClasses.java[Ex7SealedClasses.java]
+
+[source,java,linenums]
+----
+sealed abstract class MySealed permits Extn1, Extn2, Extn3 {}
+
+// Extensions can be further sealed                <1>
+sealed class Extn1 extends MySealed permits Extn1_1, Extn1_2 {}
+
+// Extensions can be final                         <2>
+final class Extn2 extends MySealed {}
+
+// Extensions can be opened with non-sealed        <3>
+non-sealed class Extn3 extends MySealed {}
+
+// Records are a naturally sealed type             <4>
+final record Extn4 extends MySealed {}
+
+----
 
 
 '''

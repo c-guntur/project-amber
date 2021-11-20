@@ -6,6 +6,22 @@ _^https://openjdk.java.net/jeps/305[JEP-305]&nbsp;(Java&nbsp;14)^_^&nbsp;⇢&nbs
 _^https://openjdk.java.net/jeps/375[JEP-375]&nbsp;(Java&nbsp;15)^_^&nbsp;⇢&nbsp;^
 *^https://openjdk.java.net/jeps/394[JEP-394]&nbsp;(Java&nbsp;16)^*
 
+* Adds pattern matching to the `instanceof`
+
+* Replaces the need to cast once instance is confirmed
+
+* Automatically handles nulls!
+
+* *Example* &nbsp;&nbsp;&nbsp;&nbsp;See: link:../../src/none/cgutils/amber/Ex5PatternMatchInstanceOf.java[Ex5PatternMatchInstanceOf.java]
+
+[source,java,linenums,highlight=7..11]
+----
+if (obj instanceof Long myLong) {   <1>
+    // can use myLong here          <2>
+} else {
+    // can't use myLong here        <3>
+}
+----
 
 
 '''

@@ -16,7 +16,7 @@ _^https://openjdk.java.net/jeps/368[JEP-368]&nbsp;(Java&nbsp;14)^_^&nbsp;⇢&nbs
 ** *JEP&nbsp;378*:&nbsp;https://openjdk.java.net/jeps/378
 ** *Programmer's&nbsp;Guide&nbsp;to&nbsp;Text&nbsp;Blocks*:&nbsp;https://docs.oracle.com/en/java/javase/15/text-blocks/index.html
 
-* *Example* &nbsp;&nbsp;&nbsp;&nbsp;See: link:../../src/none/cgutils/amber/TextBlocks.java[TextBlocks.java]
+* *Example* &nbsp;&nbsp;&nbsp;&nbsp;See: link:../../src/none/cgutils/amber/Ex4TextBlocks.java[Ex4TextBlocks.java]
 
 [source,java,linenums,highlight=7..11]
 ----
