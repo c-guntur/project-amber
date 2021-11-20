@@ -1,0 +1,47 @@
+= ⚠️ Lambda Leftovers
+:icons: font
+
+
+^&nbsp;On&nbsp;hold:&nbsp;https://openjdk.java.net/jeps/302[JEP-302]^
+
+* Proposal to create unused lambda parameters with an _underscore_ `_`.
+
+[source, java, linenums, highlight=1]
+----
+    BiFunction<Integer, String, String> biss = (i, _) -> String.valueOf(i);
+
+----
+
+* Proposal for _shadowing lambda parameters_
+
+[source, java, linenums, highlight=4]
+----
+    Map<String, Integer> msi = ...
+    ...
+    String key = computeSomeKey();
+    msi.computeIfAbsent(key, key -> key.length())
+----
+
+* Proposal to better _disambiguate lambda compatibility_ with more precision
+
+[source, java, linenums, highlight=4]
+----
+m2(Predicate<String> ps) { ... }
+m2(Function<Integer, String> fss) { ... }
+
+class Baz {
+    static String f(Double d) { ... }
+    static String f(Integer i) { ... }
+}
+
+m2(Baz::f)
+----
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| ◀️ link:10_JEP406.adoc[#Pattern&nbsp;Matching&nbsp;for&nbsp;switch#]
+| link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
+| link:12_JEP348.adoc[#Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs# ▶️]
+|===

@@ -25,25 +25,26 @@ NOTE: ~This&nbsp;presentation&nbsp;is&nbsp;based&nbsp;on&nbsp;~*~#Java&nbsp;17#~
 ~link:https://openjdk.java.net/jeps/409[JEP-409]:&nbsp;Sealed&nbsp;Classes&nbsp;link:07_JEP409.adoc[jump&nbsp;to&nbsp;▶️]~
 
 ===== 🚧 In progress
-~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Record&nbsp;Patterns&nbsp;and&nbsp;Array&nbsp;Patterns&nbsp;link:08_JEP405.adoc[jump&nbsp;to&nbsp;▶️]~
+~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Record&nbsp;Patterns&nbsp;link:08_JEP405.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/406[JEP-406]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;(Preview&nbsp;JDK&nbsp;17)&nbsp;link:09_JEP406.adoc[jump&nbsp;to&nbsp;▶️]~
+~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Array&nbsp;Patterns&nbsp;link:09_JEP405.adoc[jump&nbsp;to&nbsp;▶️]~
+
+~link:https://openjdk.java.net/jeps/406[JEP-406]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;(Preview&nbsp;JDK&nbsp;17)&nbsp;link:10_JEP406.adoc[jump&nbsp;to&nbsp;▶️]~
 
 ===== ⚠️ On hold
-~link:https://openjdk.java.net/jeps/301[JEP-301]:&nbsp;Enhanced&nbsp;Enums&nbsp;link:10_JEP301.adoc[jump&nbsp;to&nbsp;▶️]~
-
-~link:https://openjdk.java.net/jeps/302[JEP-302]:&nbsp;Lambda&nbsp;Leftovers&nbsp;link:11_JEP301.adoc[jump&nbsp;to&nbsp;▶️]~
+~link:https://openjdk.java.net/jeps/302[JEP-302]:&nbsp;Lambda&nbsp;Leftovers&nbsp;link:11_JEP302.adoc[jump&nbsp;to&nbsp;▶️]~
 
 ~link:https://openjdk.java.net/jeps/348[JEP-348]:&nbsp;Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs&nbsp;link:12_JEP348.adoc[jump&nbsp;to&nbsp;▶️]~
 
 ===== ✍🏼Draft
 ~link:https://openjdk.java.net/jeps/8209434[JEP-draft]:&nbsp;Concise&nbsp;Method&nbsp;Bodies&nbsp;~
 
+
 '''
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
 | &nbsp;
-| link:../../../README.adoc[#Main# 🔼]
+| link:../../README.adoc[#Main# 🔼]
 | link:01_JEP286.adoc[#Local-Variable Type Inference# ▶️]
 |===

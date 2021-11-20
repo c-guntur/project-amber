@@ -1,7 +1,7 @@
-= Switch Expressions
+= ✅ Switch Expressions
 :icons: font
 
-^✅&nbsp;Delivered:&nbsp;^
+^&nbsp;Delivered:&nbsp;^
 _^https://openjdk.java.net/jeps/325[JEP-325]&nbsp;(Java&nbsp;12)^_^&nbsp;⇢&nbsp;^
 _^https://openjdk.java.net/jeps/354[JEP-354]&nbsp;(Java&nbsp;13)^_^&nbsp;⇢&nbsp;^
 *^https://openjdk.java.net/jeps/361[JEP-361]&nbsp;(Java&nbsp;14)^*

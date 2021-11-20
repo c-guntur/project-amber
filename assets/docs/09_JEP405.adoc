@@ -1,0 +1,47 @@
+= 🚧 Array Patterns
+:icons: font
+
+^&nbsp;In&nbsp;progress:&nbsp;https://openjdk.java.net/jeps/405[JEP-405]^
+
+* Array patterns promote declarative, null-safe, expression-oriented Java programming.
+
+* Pattern matching decomposes arrays without worrying about array length, `null` or `NullPointerException`.
+
+[source, java, line, linenums]
+----
+String[] stringArray = {"Hello ", "World", "!!!"};
+
+static void printFirstTwoStrings(Object o) {
+    if (o instanceof String[] {                                               // <1>
+            String s1, String s2, ...                                         // <2>
+        }) {
+
+        System.out.println(s1 + s2);
+    }
+}
+----
+
+[source, java, line, linenums, highlight="4, 7"]
+----
+record Point(int x, int y) {}
+Point[] points;
+
+static void printSumOfFirstTwoXCoords(Object o) {
+
+    if (o instanceof Point[] {
+                Point(var x1, var y1), Point(var x2, var y2), ...             // <3>
+            }) {
+
+        System.out.println(x1 + x2);
+    }
+}
+----
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| ◀️ link:08_JEP405.adoc[#Record&nbsp;Patterns#]
+| link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
+| link:10_JEP406.adoc[#Pattern&nbsp;Matching&nbsp;for&nbsp;switch# ▶️]
+|===

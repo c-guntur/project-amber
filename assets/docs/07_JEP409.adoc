@@ -1,7 +1,7 @@
-= Sealed Classes
+= ✅ Sealed Classes
 :icons: font
 
-^✅&nbsp;Delivered:&nbsp;^
+^&nbsp;Delivered:&nbsp;^
 _^https://openjdk.java.net/jeps/360[JEP-360]&nbsp;(Java&nbsp;15)^_^&nbsp;⇢&nbsp;^
 _^https://openjdk.java.net/jeps/397[JEP-397]&nbsp;(Java&nbsp;16)^_^&nbsp;⇢&nbsp;^
 *^https://openjdk.java.net/jeps/409[JEP-409]&nbsp;(Java&nbsp;17)^*
@@ -40,5 +40,5 @@ final record Extn4 extends MySealed {}
 |===
 | ◀️ link:06_JEP395.adoc[#Records#]
 | link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
-| link:08_JEP405.adoc[#Record Patterns and Array Patterns# ▶️]
+| link:08_JEP405.adoc[#Record Patterns# ▶️]
 |===

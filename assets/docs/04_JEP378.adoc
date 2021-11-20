@@ -1,7 +1,7 @@
-= Text Blocks
+= ✅ Text Blocks
 :icons: font
 
-^✅&nbsp;Delivered:&nbsp;^
+^&nbsp;Delivered:&nbsp;^
 
 _[.line-through]^https://openjdk.java.net/jeps/326[JEP-326]&nbsp;(Java&nbsp;12)^_^&nbsp;⇢&nbsp;^
 _^https://openjdk.java.net/jeps/355[JEP-355]&nbsp;(Java&nbsp;13)^_^&nbsp;⇢&nbsp;^
