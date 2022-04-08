@@ -12,7 +12,7 @@
 record Point(int x, int y) {}
 . . .
 void printSum(Object o) {
-    if (o instanceof Point(int x, int y)) {                                         //<1>
+    if (o instanceof Point(int x, int y)) {                                          //<1>
         System.out.println(x + y);
     }
 }
@@ -42,7 +42,7 @@ static void printXCoordOfUpperLeftPointWithPatterns(Rectangle r) {
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
-| ◀️ link:07_JEP409.adoc[#Sealed&nbsp;Classes#]
+| ◀️ link:07_JEP409.adoc[#✅ Sealed&nbsp;Classes#]
 | link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
-| link:09_JEP405.adoc[#Array Patterns# ▶️]
+| link:09_JEP406.adoc[#🚧 Pattern&nbsp;Matching&nbsp;for&nbsp;switch# ▶️]
 |===

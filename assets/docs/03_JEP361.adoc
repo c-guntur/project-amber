@@ -38,7 +38,7 @@ case JANUARY, FEBRUARY, MARCH -> 1;
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
-| ◀️ link:02_JEP323.adoc[#Local-Variable Syntax for *λ* Parameters#]
+| ◀️ link:02_JEP323.adoc[#✅ Local-Variable Syntax for *λ* Parameters#]
 | link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
-| link:04_JEP378.adoc[#Text&nbsp;Blocks# ▶️]
+| link:04_JEP378.adoc[#✅ Text&nbsp;Blocks# ▶️]
 |===

@@ -28,7 +28,7 @@ if (obj instanceof Long myLong) {   <1>
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
-| ◀️ link:04_JEP378.adoc[#Text&nbsp;Blocks#]
+| ◀️ link:04_JEP378.adoc[#✅ Text&nbsp;Blocks#]
 | link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
-| link:06_JEP395.adoc[#Records# ▶️]
+| link:06_JEP395.adoc[#✅ Records# ▶️]
 |===

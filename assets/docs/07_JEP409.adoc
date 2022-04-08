@@ -38,7 +38,7 @@ final record Extn4 extends MySealed {}
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
-| ◀️ link:06_JEP395.adoc[#Records#]
+| ◀️ link:06_JEP395.adoc[#✅ Records#]
 | link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
-| link:08_JEP405.adoc[#Record Patterns# ▶️]
+| link:08_JEP405.adoc[#🚧 Record Patterns# ▶️]
 |===

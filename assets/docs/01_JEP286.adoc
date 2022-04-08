@@ -1,7 +1,7 @@
 = ✅ Local Variable Type Inference
 :icons: font
 
-^&nbsp;Delivered:&nbsp;https://openjdk.java.net/jeps/286[JEP-286]&nbsp;&nbsp;&nbsp;&nbsp;^*^Java&nbsp;10^*
+^&nbsp;Delivered:&nbsp;https://openjdk.java.net/jeps/286[JEP-286]&nbsp;^*^(Java&nbsp;10)^*
 
 - Introduction of `var` as a variable type
 
@@ -31,5 +31,5 @@ var k = { 1 , 2 }; // cannot infer type for local
 |===
 | &nbsp;
 | link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
-| link:02_JEP323.adoc[#Local-Variable Syntax for *λ* Parameters# ▶️]
+| link:02_JEP323.adoc[#✅ Local-Variable Syntax for *λ* Parameters# ▶️]
 |===

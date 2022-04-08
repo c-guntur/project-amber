@@ -1,10 +1,13 @@
 = 🚧 Pattern Matching for switch
 :icons: font
 
-^&nbsp;In&nbsp;progress:&nbsp;https://openjdk.java.net/jeps/406[JEP-406]^
+^&nbsp;In&nbsp;progress:&nbsp;^
+_^https://openjdk.java.net/jeps/406[JEP-406]&nbsp;(Java&nbsp;17)^_^&nbsp;⇢&nbsp;^
+_^https://openjdk.java.net/jeps/420[JEP-420]&nbsp;(Java&nbsp;18)^_^&nbsp;⇢&nbsp;^
 
 * Allows for pattern matching and guarded patterns in `switch-case`
 * Variables are _flow-scoped_
+* *JEP-420* includes 'exhaustiveness' and 'dominance' checks at compile time.
 
 [source, java, linenums]
 ----
@@ -36,7 +39,7 @@ static void typeTester(Object o) {
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
-| ◀️ link:09_JEP405.adoc[#Array Patterns#]
+| ◀️ link:08_JEP405.adoc[#🚧 Record Patterns#]
 | link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
-| link:11_JEP302.adoc[#Lambda&nbsp;Leftovers# ▶️]
+| link:10_JEP302.adoc[#⚠️ Lambda&nbsp;Leftovers# ▶️]
 |===

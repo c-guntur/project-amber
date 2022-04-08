@@ -1,0 +1,31 @@
+= ⚠️ Java Compiler Intrinsics for JDK APIs
+
+^&nbsp;On&nbsp;hold:&nbsp;https://openjdk.java.net/jeps/348[JEP-348]^
+
+* Enable *Java compilers* to use novel code generation strategies. to improve performance of certain Java SE methods.
+
+* Enable *JDK developers* to tag methods as candidates & implement alternate translations of invocations.
+
+To intrinsify a specific invocation of a given method, all of the following have to happen:
+
+. The *method opts in* to intrinsification at its declaration site, as part of its specification;
+. The compiler *identifies* this invocation *as intrinsifiable*;
+. The compiler *knows of an intrinsic processor* for the method;
+. The intrinsic processor indicates an *alternate translation strategy*; and
+. The compiler *generates the bytecode* corresponding to the *indicated strategy*.
+
+
+[quote,Brian Goetz (Java Language Architect),'at https://mail.openjdk.java.net/pipermail/amber-dev/2019-April/004264.html[amber/amber: dont intrinsify Objects::hash]']
+____
+    Intensification (sic: Intrinsification) is a big, big hammer;
+    it should be reserved for when it yields big, big results.
+____
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| ◀️ link:10_JEP302.adoc[#⚠️ Lambda&nbsp;Leftovers#]
+| link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
+| link:12_JEP405.adoc[#⚠️ Array&nbsp;Patterns# ▶️]
+|===

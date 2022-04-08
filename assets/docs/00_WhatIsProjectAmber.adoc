@@ -6,7 +6,7 @@ Project&nbsp;Amber&nbsp;explores&nbsp;->&nbsp;incubates&nbsp;or&nbsp;delivers&nb
 ~The&nbsp;feature&nbsp;candidate&nbsp;JEPs&nbsp;are&nbsp;in&nbsp;the&nbsp;OpenJDK&nbsp;JEP&nbsp;Process&nbsp;(https://openjdk.java.net/jeps/1)~
 
 ==== Project Amber Goals
-NOTE: ~This&nbsp;presentation&nbsp;is&nbsp;based&nbsp;on&nbsp;~*~#Java&nbsp;17#~*~&nbsp;released&nbsp;~*~#2021-09-14#~*~.~
+NOTE: ~This&nbsp;presentation&nbsp;is&nbsp;based&nbsp;on&nbsp;~*~#Java&nbsp;18#~*~&nbsp;released&nbsp;~*~#2022-03-22#~*~.~
 
 ===== ✅ Delivered
 
@@ -27,17 +27,17 @@ NOTE: ~This&nbsp;presentation&nbsp;is&nbsp;based&nbsp;on&nbsp;~*~#Java&nbsp;17#~
 ===== 🚧 In progress
 ~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Record&nbsp;Patterns&nbsp;link:08_JEP405.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Array&nbsp;Patterns&nbsp;link:09_JEP405.adoc[jump&nbsp;to&nbsp;▶️]~
-
-~link:https://openjdk.java.net/jeps/406[JEP-406]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;(Preview&nbsp;JDK&nbsp;17)&nbsp;link:10_JEP406.adoc[jump&nbsp;to&nbsp;▶️]~
+~link:https://openjdk.java.net/jeps/406[JEP-406]:&nbsp;Pattern&nbsp;Matching&nbsp;for&nbsp;switch&nbsp;link:09_JEP406.adoc[jump&nbsp;to&nbsp;▶️]~
 
 ===== ⚠️ On hold
-~link:https://openjdk.java.net/jeps/302[JEP-302]:&nbsp;Lambda&nbsp;Leftovers&nbsp;link:11_JEP302.adoc[jump&nbsp;to&nbsp;▶️]~
+~link:https://openjdk.java.net/jeps/302[JEP-302]:&nbsp;Lambda&nbsp;Leftovers&nbsp;link:10_JEP302.adoc[jump&nbsp;to&nbsp;▶️]~
 
-~link:https://openjdk.java.net/jeps/348[JEP-348]:&nbsp;Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs&nbsp;link:12_JEP348.adoc[jump&nbsp;to&nbsp;▶️]~
+~link:https://openjdk.java.net/jeps/348[JEP-348]:&nbsp;Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs&nbsp;link:11_JEP348.adoc[jump&nbsp;to&nbsp;▶️]~
+
+~link:https://openjdk.java.net/jeps/405[JEP-405]:&nbsp;Array&nbsp;Patterns&nbsp;link:12_JEP405.adoc[jump&nbsp;to&nbsp;▶️]~
 
 ===== ✍🏼Draft
-~link:https://openjdk.java.net/jeps/8209434[JEP-draft]:&nbsp;Concise&nbsp;Method&nbsp;Bodies&nbsp;~
+~link:https://openjdk.java.net/jeps/8209434[JEP-draft]:&nbsp;Concise&nbsp;Method&nbsp;Bodies&nbsp;link:13_8209434.adoc[jump&nbsp;to&nbsp;▶️]~
 
 
 '''
@@ -46,5 +46,5 @@ NOTE: ~This&nbsp;presentation&nbsp;is&nbsp;based&nbsp;on&nbsp;~*~#Java&nbsp;17#~
 |===
 | &nbsp;
 | link:../../README.adoc[#Main# 🔼]
-| link:01_JEP286.adoc[#Local-Variable Type Inference# ▶️]
+| link:01_JEP286.adoc[#✅ Local-Variable Type Inference# ▶️]
 |===

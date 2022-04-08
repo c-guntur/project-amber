@@ -1,7 +1,7 @@
 = 🚧 Array Patterns
 :icons: font
 
-^&nbsp;In&nbsp;progress:&nbsp;https://openjdk.java.net/jeps/405[JEP-405]^
+^&nbsp;On&nbsp;Hold:&nbsp;https://openjdk.java.net/jeps/405[JEP-405]^
 
 * Array patterns promote declarative, null-safe, expression-oriented Java programming.
 
@@ -41,7 +41,7 @@ static void printSumOfFirstTwoXCoords(Object o) {
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
-| ◀️ link:08_JEP405.adoc[#Record&nbsp;Patterns#]
+| ◀️ link:11_JEP348.adoc[#⚠️ Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs#]
 | link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
-| link:10_JEP406.adoc[#Pattern&nbsp;Matching&nbsp;for&nbsp;switch# ▶️]
+| link:13_8209434.adoc[#✍🏼 Compact&nbsp;Method&nbsp;Bodies# ▶️]
 |===

@@ -19,7 +19,9 @@
     Map<String, Integer> msi = ...
     ...
     String key = computeSomeKey();
-    msi.computeIfAbsent(key, key -> key.length())
+
+    // Below currently errors out, JEP to allow lambda reuse to shadow variables
+    msi.computeIfAbsent(key, key -> key.length())      //<1>
 ----
 
 * Proposal to better _disambiguate lambda compatibility_ with more precision
@@ -34,14 +36,15 @@ class Baz {
     static String f(Integer i) { ... }
 }
 
-m2(Baz::f)
+// Below currently ambiguous, JEP to infer a call to line 6
+m2(Baz::f)                                            //<2>
 ----
 
 '''
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
-| ◀️ link:10_JEP406.adoc[#Pattern&nbsp;Matching&nbsp;for&nbsp;switch#]
+| ◀️ link:09_JEP406.adoc[#🚧 Pattern&nbsp;Matching&nbsp;for&nbsp;switch#]
 | link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
-| link:12_JEP348.adoc[#Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs# ▶️]
+| link:11_JEP348.adoc[#⚠️ Java&nbsp;Compiler&nbsp;Intrinsics&nbsp;for&nbsp;JDK&nbsp;APIs# ▶️]
 |===
