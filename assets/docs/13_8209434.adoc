@@ -1,0 +1,39 @@
+= ✍🏼 Compact Method Bodies
+:icons: font
+
+^&nbsp;Draft:&nbsp;https://openjdk.java.net/jeps/8209434[JDK-8209434]^
+
+* Aims at creating _compact_ single expression methods.
+
+* Can be used with `method references` or `lambdas`.
+
+[source,java,linenums,highlight=2..3]
+----
+int length(String s) -> s.length();     //  -> is "single expression form"
+int length(String s) = String::length;  //  = is "method reference form"
+
+----
+
+* Furthermore, there is an arrow and assignment based compact body proposed for method references.
+
+[source,java,linenums,highlight=2..3]
+----
+class StringChanger {
+    Function<String,String> fun1() -> this::bar; // Calls line 5    <1>
+    Function<String,String> fun2() =  this::bar; // Calls line 6    <2>
+
+    String bar(String s) { return null; }
+    Function<String,String> bar() { return null; }
+}
+----
+<1> `this::bar` after `->` evaluates to an instance of a functional interface embodying the `String bar(String s) {...}`
+<2> `this::bar` after `=` causes invocation of `Function<String,String> bar() {...}`
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| ◀️ link:12_JEP405.adoc[#⚠️ Array&nbsp;Patterns#]
+| link:00_WhatIsProjectAmber.adoc[#Project Amber# 🔼]
+| &nbsp;
+|===
