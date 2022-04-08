@@ -2,12 +2,6 @@ package none.cgutils.amber;
 
 /*
 
-JEPs:
-    https://openjdk.java.net/jeps/360 (Java 15)
-    https://openjdk.java.net/jeps/397 (Java 16)
-    https://openjdk.java.net/jeps/409 (Java 17)
-
-
 🄵 [NoExtensionShape]
 
 🄰 (AbstractShape)
@@ -130,6 +124,8 @@ sealed abstract class Shape permits Circle, Triangle, FourSidedShape {
     }
 }
 
+//NOTE: The uncommenting the below will result in compilation error
+//  "Octagon is not allowed in the sealed hierarchy"
 //class Octagon extends Shape {
 //
 //    public Octagon(String description) {

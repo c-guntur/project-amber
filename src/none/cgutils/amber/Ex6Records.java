@@ -2,14 +2,6 @@ package none.cgutils.amber;
 
 import java.util.Objects;
 
-/*
-JEPs:
-    https://openjdk.java.net/jeps/359 (Java 14)
-    https://openjdk.java.net/jeps/384 (Java 15)
-    https://openjdk.java.net/jeps/395 (Java 16)
-*/
-
-
 //----------------------------------------------------------------------------------------------
 record SimpleRecord(String stringValue, Integer integerValue) { }
 //----------------------------------------------------------------------------------------------
